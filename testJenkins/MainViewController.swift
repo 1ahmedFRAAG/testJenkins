@@ -14,6 +14,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         view.backgroundColor = .red
+        print("test repo")
         
     }
     override func viewWillAppear(_ animated: Bool) {
