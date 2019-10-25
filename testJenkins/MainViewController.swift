@@ -25,3 +25,7 @@ class MainViewController: UIViewController {
 
 }
 
+struct newCell {
+    let cell: String
+    let name: String
+}
