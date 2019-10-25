@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4703ED2B2363149E007BF219 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703ED2A2363149E007BF219 /* AppDelegate.swift */; };
-		4703ED2D2363149E007BF219 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703ED2C2363149E007BF219 /* ViewController.swift */; };
+		4703ED2D2363149E007BF219 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703ED2C2363149E007BF219 /* MainViewController.swift */; };
 		4703ED302363149E007BF219 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4703ED2E2363149E007BF219 /* Main.storyboard */; };
 		4703ED32236314A4007BF219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4703ED31236314A4007BF219 /* Assets.xcassets */; };
 		4703ED35236314A4007BF219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4703ED33236314A4007BF219 /* LaunchScreen.storyboard */; };
 		4703ED40236314A5007BF219 /* testJenkinsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703ED3F236314A5007BF219 /* testJenkinsTests.swift */; };
 		4703ED4B236314A5007BF219 /* testJenkinsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703ED4A236314A5007BF219 /* testJenkinsUITests.swift */; };
+		47D949E92363174D00517DC9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703ED2C2363149E007BF219 /* MainViewController.swift */; };
+		47D949EA2363174E00517DC9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703ED2C2363149E007BF219 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		4703ED272363149E007BF219 /* testJenkins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testJenkins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4703ED2A2363149E007BF219 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4703ED2C2363149E007BF219 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4703ED2C2363149E007BF219 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4703ED2F2363149E007BF219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4703ED31236314A4007BF219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4703ED34236314A4007BF219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				4703ED2A2363149E007BF219 /* AppDelegate.swift */,
-				4703ED2C2363149E007BF219 /* ViewController.swift */,
+				4703ED2C2363149E007BF219 /* MainViewController.swift */,
 				4703ED2E2363149E007BF219 /* Main.storyboard */,
 				4703ED31236314A4007BF219 /* Assets.xcassets */,
 				4703ED33236314A4007BF219 /* LaunchScreen.storyboard */,
@@ -256,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4703ED2D2363149E007BF219 /* ViewController.swift in Sources */,
+				4703ED2D2363149E007BF219 /* MainViewController.swift in Sources */,
 				4703ED2B2363149E007BF219 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47D949E92363174D00517DC9 /* MainViewController.swift in Sources */,
 				4703ED40236314A5007BF219 /* testJenkinsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47D949EA2363174E00517DC9 /* MainViewController.swift in Sources */,
 				4703ED4B236314A5007BF219 /* testJenkinsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
