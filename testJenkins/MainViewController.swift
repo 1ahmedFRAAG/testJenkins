@@ -15,6 +15,7 @@ class MainViewController: UIViewController {
         // Do any additional setup after loading the view.
         view.backgroundColor = .red
         print("test repo")
+        print("switch to branch dev")
         
     }
     override func viewWillAppear(_ animated: Bool) {
@@ -24,3 +25,7 @@ class MainViewController: UIViewController {
 
 }
 
+struct newCell {
+    let cell: String
+    let name: String
+}
