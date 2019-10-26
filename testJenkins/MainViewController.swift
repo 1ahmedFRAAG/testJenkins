@@ -16,16 +16,14 @@ class MainViewController: UIViewController {
         view.backgroundColor = .red
         print("test repo")
         print("switch to branch dev")
-        
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
     }
 
-
 }
 
-struct newCell {
+struct NewCell {
     let cell: String
     let name: String
 }
