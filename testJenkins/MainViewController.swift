@@ -14,18 +14,15 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         view.backgroundColor = .red
-        print("test repo")
-        print("switch to branch dev")
-        
+        print("print swiftlint installed")
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
     }
 
-
 }
 
-struct newCell {
+struct NewCell {
     let cell: String
     let name: String
 }
